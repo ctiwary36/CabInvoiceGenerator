@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-30T03:24:55" hostname="LAPTOP-CDF5Q9QC" time="0.049">
+<testsuite name="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-30T03:45:27" hostname="LAPTOP-CDF5Q9QC" time="0.066">
   <properties/>
-  <testcase name="givenDistanceAndTime_WhenLessThanMinimumFare_ShouldReturnTotalFare()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.047"/>
-  <testcase name="givenDistanceAndTime_ShouldReturnTotalFare()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenDistanceAndTime_WhenLessThanMinimumFare_ShouldReturnTotalFare()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.058"/>
+  <testcase name="givenMultipleRides_ShouldReturnTotalFare()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.003"/>
+  <testcase name="givenDistanceAndTime_ShouldReturnTotalFare()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
