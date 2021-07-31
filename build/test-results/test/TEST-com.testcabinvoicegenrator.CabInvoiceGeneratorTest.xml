@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-07-31T20:53:26" hostname="LAPTOP-CDF5Q9QC" time="0.03">
+<testsuite name="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-07-31T21:00:57" hostname="LAPTOP-CDF5Q9QC" time="0.027">
   <properties/>
-  <testcase name="givenUserID_ShouldReturnListOfRides()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.025"/>
-  <testcase name="givenDistanceAndTime_WhenLessThanMinimumFare_ShouldReturnTotalFare()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.002"/>
+  <testcase name="givenDistanceAndTime_WhenPremiumAndLessThanMinimum_ShouldReturnTotalFare()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.02"/>
+  <testcase name="givenUserID_ShouldReturnListOfRides()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenDistanceAndTime_WhenLessThanMinimumFare_ShouldReturnTotalFare()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenDistanceAndTime_WhenPremium_ShouldReturnTotalFare()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.001"/>
   <testcase name="givenDistanceAndTime_ShouldReturnTotalFare()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.001"/>
-  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummary()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.0"/>
+  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummary()" classname="com.testcabinvoicegenrator.CabInvoiceGeneratorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

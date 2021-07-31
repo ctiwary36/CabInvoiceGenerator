@@ -1,6 +1,7 @@
 package com.cabinvoicegenrator;
 
-public class Ride {
+public class Ride
+{
     public double distance;
     public double time;
 
